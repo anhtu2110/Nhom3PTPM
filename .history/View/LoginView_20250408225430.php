@@ -32,7 +32,7 @@ document.getElementById('check-login').addEventListener('click', function(event)
     formData.append('password', password);
 
     let xhr = new XMLHttpRequest();
-    xhr.open('POST', 'http://192.168.126.128:80/Nhom3PTPM/Controller/LoginController.php', true);
+    xhr.open('POST', 'http://192.168.126.128:80/TestCNPM/Controller/LoginController.php', true);
     xhr.onload = function() {
         if (xhr.status == 200) {
             let response = JSON.parse(xhr.responseText);

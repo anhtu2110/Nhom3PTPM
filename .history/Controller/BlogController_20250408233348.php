@@ -1,5 +1,5 @@
 <?php
-	require_once $_SERVER['DOCUMENT_ROOT'].'/Nhom3PTPM/Model/BlogModel.php';
+	require_once $_SERVER['DOCUMENT_ROOT'].'/TestCNPM/Model/BlogModel.php';
 
 	class BlogController{
 		private $model = null;

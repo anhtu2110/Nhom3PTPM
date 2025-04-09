@@ -1,5 +1,5 @@
 <?php
-	require_once $_SERVER['DOCUMENT_ROOT'] . '/Nhom3PTPM/Controller/BlogController.php';
+	require_once $_SERVER['DOCUMENT_ROOT'] . '/TestCNPM/Controller/BlogController.php';
 	$controller = new BlogController();
 	$result = $controller->BlogController();
 

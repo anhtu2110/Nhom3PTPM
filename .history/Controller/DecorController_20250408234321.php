@@ -1,5 +1,5 @@
 <?php 
-	require_once $_SERVER['DOCUMENT_ROOT'].'/Nhom3PTPM/Model/DecorModel.php';
+	require_once $_SERVER['DOCUMENT_ROOT'].'/TestCNPM/Model/DecorModel.php';
 	class DecorController{
 		private $model = null;
 

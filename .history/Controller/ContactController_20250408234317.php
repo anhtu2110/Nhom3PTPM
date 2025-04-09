@@ -1,5 +1,5 @@
 <?php
-    include $_SERVER['DOCUMENT_ROOT'].'/Nhom3PTPM/Connect/connectDatabase.php'; 
+    include $_SERVER['DOCUMENT_ROOT'].'/TestCNPM/Connect/connectDatabase.php'; 
 
     if($_SERVER['REQUEST_METHOD'] == "POST"){
         $fullname = $_POST['fullname'];

@@ -1,5 +1,5 @@
 <?php
-require_once $_SERVER['DOCUMENT_ROOT'].'/Nhom3PTPM/Model/MenuModel.php';
+require_once $_SERVER['DOCUMENT_ROOT'].'/TestCNPM/Model/MenuModel.php';
  class MenuController{
     private $model;
 

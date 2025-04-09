@@ -1,5 +1,5 @@
 <?php
-	require_once $_SERVER['DOCUMENT_ROOT'] . '/Nhom3PTPM/Controller/DecorController.php';
+	require_once $_SERVER['DOCUMENT_ROOT'] . '/TestCNPM/Controller/DecorController.php';
 ?>
 <div class="lop02 wow fadeInUp">
     <div class="container">

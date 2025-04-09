@@ -1,6 +1,6 @@
 <?php 
     //require_once '../Connect/connectDatabase.php';
-    require_once $_SERVER['DOCUMENT_ROOT'].'/Nhom3PTPM/Connect/connectDatabase.php';
+    require_once $_SERVER['DOCUMENT_ROOT'].'/TestCNPM/Connect/connectDatabase.php';
     class ContactModel{
         private $db = null;
 

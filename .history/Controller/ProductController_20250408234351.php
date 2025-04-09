@@ -1,5 +1,5 @@
 <?php
-	require_once $_SERVER['DOCUMENT_ROOT'].'/Nhom3PTPM/Model/ProductModel.php';
+	require_once $_SERVER['DOCUMENT_ROOT'].'/TestCNPM/Model/ProductModel.php';
 
 	class ProductController{
 		private $model = null;

@@ -3,7 +3,7 @@
         <ul class="nav">
             <?php
             // require_once('./Controller/MenuController.php');
-            require_once($_SERVER['DOCUMENT_ROOT'].'/Nhom3PTPM/Controller/MenuController.php');
+            require_once($_SERVER['DOCUMENT_ROOT'].'/TestCNPM/Controller/MenuController.php');
 
 
             $controller = new MenuController();
