@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner img{
+    width: 100%;
+    height: 100vh;
+    filter: brightness(80%);
+}
+.login{
+    background-color: rgb(255, 255, 255);
+    padding: 20px 20px 0 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.5);
+    position: absolute ;
+    top: 10%;
+    left: 13%;
+    width: 70%;
+}
+a{
+    text-decoration: none;
+}
+.team img{
+    border-right: solid 1px rgb(107, 65, 65);
+   width: 100%;
+   height: auto;
+  
+}
+.login hr{
+    margin: 0;
+}
+.login input{
+    background: none;
+    border: none;
+    width: 90%;
+    padding-left: 15px ;
+}
+.formlogin{
+    margin-top: 6%;
+}
+.no-border:focus {
+    outline: none;
+}
+.menu-show{
+    background-color: rgb(251, 251, 251);
+    width: 100%;
+    height: 70px;
+    box-shadow:  0 0 10px 0 rgba(0, 0, 0, 0.9);
+    
+}
+.menu-item1{
+    font-size: 30px;
+}
+.menu-item1 a{
+    padding-left: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+.menu-show p{
+    font-size: 20px;
+}
+.menu-show .col-md-2, .col-md-3{
+    height: 70px;
+}
+.imgadmin img{
+    width: 60%;
+    height: 80%;
+    border-radius: 60%;
+    border: solid 1px rgb(107, 65, 65);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 9%;
+}
+.imgadmin button{
+    background: none;
+    border: none;
+    color: black;
+    font-size: 30px;
+}
+.imgadmin:hover button{
+    background: none;
+    border: none;
+    color: rgb(107, 65, 65);
+}
+.imgadmin:active button{
+    background: none;
+    border: none;
+}
+.quanly .col-md-2{
+    height: 80vh;
+    background-color: rgb(255, 255, 255);
+    margin-left: 20px;
+    border-radius: 0 20px 20px 0 ;
+    box-shadow:  0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+.cachxiu{
+    margin-right: 10px;
+}
+#searchInput1, #searchInput2,#searchInput3,#searchInput4,#searchInput5,#searchInput6,#searchInput7,#searchInput8{
+    width: 60%;
+    padding-left: 50px;
+    background: none;
+    border: none;
+}
+#searchInput1, #searchInput2,#searchInput3,#searchInput4,#searchInput5,#searchInput6,#searchInput7,#searchInput8:focus{
+    outline: none;
+}
+table{
+    border: 1px solid black;
+}
+
+th{
+    padding: 0 10px ;
+    background-color: rgb(233, 217, 217);
+    border-right: solid 1px black;
+    text-align: center;
+}
+td{
+    padding: 10px ;
+    border-right: solid 1px black;
+    text-align: center;
+    border-bottom: solid 1px black;
+}
+.cachxara{
+    margin-left: 3px;
+    
+}
+.tam-an{
+    display: none;
+}
+.quanly img{
+    max-width: 70px;
+    height: auto;
+}
+/* add câc bảng */
+.add_mau{
+    background-color: rgb(237, 218, 218);
+    padding: 20px 20px 0 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.5);
+    height: 90vh;
+    
+}
