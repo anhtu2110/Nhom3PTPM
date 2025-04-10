@@ -68,7 +68,7 @@ document.getElementById('submit_comment').addEventListener('click', (e) => {
     formData.append('Date', Date);
 
     let xhr = new XMLHttpRequest();
-    xhr.open('POST', 'http://192.168.126.128:80/TestCNPM/Controller/CommentController.php', true);
+    xhr.open('POST', 'http://192.168.126.128:80/Nhom3PTPM/Controller/CommentController.php', true);
     xhr.onreadystatechange = function() {
         if (xhr.readyState === 4 && xhr.status === 200) {
             let result = JSON.parse(xhr.responseText);

@@ -42,7 +42,7 @@ $(document).ready(function() {
         }
         $.ajax({
             type: "POST",
-            url: "http://192.168.126.128:80/TestCNPM/Controller/CheckOutController.php",
+            url: "http://192.168.126.128:80/Nhom3PTPM/Controller/CheckOutController.php",
             data: data,
             dataType: "json",
             success: function(response) {
@@ -71,7 +71,7 @@ $(document).ready(function() {
         }
         $.ajax({
             type: "POST",
-            url: "http://192.168.126.128:80/TestCNPM/Controller/CheckOutController.php",
+            url: "http://192.168.126.128:80/Nhom3PTPM/Controller/CheckOutController.php",
             data: data,
             dataType: "json",
             success: function(response) {

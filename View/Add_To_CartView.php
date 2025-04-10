@@ -79,7 +79,7 @@ $(document).ready(function() {
         }
         $.ajax({
             type: "POST",
-            url: "http://192.168.126.128:80/TestCNPM/Controller/Update_Cart_Controller.php",
+            url: "http://192.168.126.128:80/Nhom3PTPM/Controller/Update_Cart_Controller.php",
             data: data,
             dataType: "text",
             success: function(response) {
@@ -101,7 +101,7 @@ $(document).ready(function() {
         }
         $.ajax({
             type: "POST",
-            url: "http://192.168.126.128:80/TestCNPM/Controller/Update_Cart_Controller.php",
+            url: "http://192.168.126.128:80/Nhom3PTPM/Controller/Update_Cart_Controller.php",
             data: data,
             dataType: "text",
             success: function(response) {
@@ -136,7 +136,7 @@ $(document).ready(function() {
                     };
                     $.ajax({
                         type: "POST",
-                        url: "http://192.168.126.128:80/TestCNPM/Controller/Delete_TmpOrder.php",
+                        url: "http://192.168.126.128:80/Nhom3PTPM/Controller/Delete_TmpOrder.php",
                         data: data,
                         dataType: "json",
                         success: function(response) {

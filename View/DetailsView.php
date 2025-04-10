@@ -120,7 +120,7 @@ $(document).ready(function() {
         }
         $.ajax({
             type: "POST",
-            url: "http://192.168.126.128:80/TestCNPM/Controller/Save_TmpOrderController.php",
+            url: "http://192.168.126.128:80/Nhom3PTPM/Controller/Save_TmpOrderController.php",
             data: data,
             dataType: "json",
             success: function(data) {
@@ -159,7 +159,7 @@ $(document).ready(function() {
         }
         $.ajax({
             type: "POST",
-            url: "http://192.168.126.128:80/TestCNPM/Controller/Save_TmpOrderController.php",
+            url: "http://192.168.126.128:80/Nhom3PTPM/Controller/Save_TmpOrderController.php",
             data: data,
             dataType: "json",
             success: function(data) {
